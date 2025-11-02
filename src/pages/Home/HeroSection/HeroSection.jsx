@@ -79,7 +79,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="h-auto min-h-[80vh] md:h-[80vh] bg-gray-100 flex flex-col items-center justify-center overflow-hidden py-8 md:py-0">
+    <div className=" relative h-auto min-h-[80vh] md:h-[80vh] bg-gray-100 flex flex-col items-center justify-center overflow-hidden py-8 md:py-0">
       <div className="relative w-[90%] ">
         <Carousel
           className="w-full"
@@ -213,7 +213,7 @@ function HeroSection() {
       <motion.img
         src="tools.png"
         alt="tools"
-        className="absolute bottom-0 right-0 w-[300px] md:w-[400px] lg:w-[500px] hidden md:block"
+        className="absolute bottom-0 right-0 w-[300px] md:w-[400px] lg:w-[400px] hidden md:block"
         animate={{
           y: [0, -15, 0],
         }}

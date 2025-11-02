@@ -5,7 +5,7 @@ function TopNavbar() {
 
 
   return (
-    <div className="py-4 flex gap-10 px-50 items-center bg-gray-100 "  aria-live="polite">
+    <div className="py-4 flex gap-10 px-28 items-center bg-gray-100 "  aria-live="polite">
       <div className='flex items-center justify-center gap-1.5'>
         <Phone className='w-3 text-gray-700' strokeWidth={2.5}/>
         <p className='text-sm font-bold text-gray-700'>+1 659 213 5042</p>

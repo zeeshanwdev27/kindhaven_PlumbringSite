@@ -23,7 +23,7 @@ function MainNavbar() {
 
   return (
     <>
-      <div className="relative flex justify-between items-center py-5 md:py-10 px-7 md:px-15 lg:px-50 shadow-sm overflow-hidden bg-white">
+      <div className="relative flex justify-between items-center py-5 md:py-10 px-7 md:px-15 lg:px-28 xl:px-28 shadow-sm overflow-hidden bg-white">
         {/* Blue slanted background shape */}
         <div
           className="absolute top-0 left-0 h-full w-[80%] bg-[#0A3D62] z-10"

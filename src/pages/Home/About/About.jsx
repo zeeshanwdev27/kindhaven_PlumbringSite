@@ -115,12 +115,12 @@ function About({ active }) {
       <motion.img
         src="arrow.png"
         alt="arrow"
-        className="hidden lg:block absolute top-0 w-70 mt-114 ml-15"
+        className="hidden lg:block absolute top-0 w-40 mt-129"
         animate={{
           x: [0, 40, 0], // move 40px right and back
         }}
         transition={{
-          duration: 3, // how long one left-right cycle takes
+          duration: 1.8, // how long one left-right cycle takes
           repeat: Infinity,
           ease: "easeInOut",
         }}
