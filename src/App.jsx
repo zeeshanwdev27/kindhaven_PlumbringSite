@@ -7,6 +7,7 @@ const RefundPolicy = React.lazy(()=> import('./pages/RefundPolicy/RefundPolicy.j
 const AboutUs = React.lazy(()=> import('./pages/AboutUs/AboutUs.jsx'))
 const Services = React.lazy(()=> import('./pages/Services/Services.jsx'))
 const Contact = React.lazy(()=> import('./pages/Contact/Contact.jsx'))
+const PrivacyPolicy = React.lazy(()=> import('./pages/PrivacyPolicy/PrivacyPolicy.jsx'))
 
 
 const App = createBrowserRouter(
@@ -18,6 +19,7 @@ const App = createBrowserRouter(
         <Route path="services" element={<Services />} />
         <Route path="contact" element={<Contact />} />
         <Route path="refund-policy" element={<RefundPolicy />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
       </Route>
     </>
   )

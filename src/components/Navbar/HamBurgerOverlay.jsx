@@ -19,6 +19,7 @@ function HamBurgerOverlay({ isOpen, setIsOpen }) {
     { path: "/services", label: "Services", icon: Settings },
     { path: "/contact", label: "Contact", icon: Mail },
     { path: "/refund-policy", label: "Refund Policy", icon: FileText },
+    { path: "privacy-policy", label: "Privacy Policy", icon: FileText },
   ];
 
   return (

@@ -56,6 +56,9 @@ function MainNavbar() {
             <li>
               <NavLink to={"/refund-policy"}>Refund Policy</NavLink>
             </li>
+            <li>
+              <NavLink to={"/privacy-policy"}>Privacy Policy</NavLink>
+            </li>
           </ul>
         </div>
 
