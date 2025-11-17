@@ -31,8 +31,6 @@ function AboutUs() {
       {/* FAQ Section */}
       <FrequentAskQuestion color={true}/>
 
-      {/* Testimonials Section */}
-      <Testimonials/>
     </div>
   )
 }

@@ -106,10 +106,10 @@ function HamBurgerOverlay({ isOpen, setIsOpen }) {
                 <div className="text-center">
                   <p className="text-gray-500 text-sm mb-2">Need help?</p>
                   <a 
-                    href="mailto:support@example.com" 
+                    href="mailto:info@kindhaven.net" 
                     className="text-[#0A3D62] font-medium hover:underline text-lg"
                   >
-                    support@example.com
+                    info@kindhaven.net
                   </a>
                 </div>
               </motion.div>
