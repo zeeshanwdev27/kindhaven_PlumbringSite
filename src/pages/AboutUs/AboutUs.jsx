@@ -5,7 +5,6 @@ import About from '../Home/About/About'
 import FrequentAskQuestion from '../Home/FrequentAskQuestion/FrequentAskQuestion'
 import WhyChooseUs from '../Home/WhyChooseUs/WhyChooseUs'
 import BeforeAfter from './BeforeAfter'
-import Testimonials from './Testimonials' 
 
 function AboutUs() {
   const { pathname } = useLocation();
